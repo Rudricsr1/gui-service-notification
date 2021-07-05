@@ -1,62 +1,71 @@
-.outer-body{
-background-color: whitesmoke;
+.outer-body {
+  background-color: whitesmoke;
 }
 
-
 .outer-rectangle {
-  margin: 270px 238px;
-  padding: 2px;
-  width: 900px;
-  height: 283px;
-  fill: Solid;
+  margin: 228px 77px;
+  padding: 1%;
+  width: 70%;
+  height: 300px;
   background-color: white;
 }
 
-.you-have-opted-out {
-  margin: 20px 297px;
-
-  height: 32px;
-  width: 237px;
-  color: #484943;
+.you-have-opted {
+  margin: -5% 25%;
+  height: 30px;
+  width: 49%;
   font-family: "Museo Sans";
-  font-size: 10px;
+  letter-spacing: 0;
+}
+
+.you-have-opted-h1 {
+  font-family: "Museo Sans";
+  font-size: 32px;
+  color: #484943;
   letter-spacing: 0;
   line-height: 31px;
   text-align: center;
 }
 
-.you-have-opted-out-o {
-  margin-left: 180px;
+.you-have-opted-message {
+  margin-top: 8%;
   height: 15px;
-  width: 425px;
+}
+
+.you-have-opted-message-h1 {
   color: #6b6b6b;
   font-family: "Museo Sans";
-  font-size: 7px;
+  font-size: 22px;
   letter-spacing: 0;
   line-height: 17px;
   text-align: center;
 }
 
 .button-close-window {
-  height: 38px;
-  width: 130px;
-  margin-left: 350px;
-  margin: top 15px;
-  background-color: #1A73E8;
+  height: 10%;
+  width: 16%;
+  margin-left: 40%;
+  margin-top: 3.5%;
+  background-color: #1a73e8;
   border: hidden;
   border-radius: 3px;
-  background-color: #1A73E8;
-  margin-top: 20px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-align: center;
 }
 
-.opt-back-in {
+.opt-back-in-or-out {
   margin-top: 7px;
-  margin-left: 375px;
-  height: 17px;
-  width: 75px;
+  margin-left: 38%;
+  height: 15%;
+  width: 20%;
   color: #046cff;
   font-family: "Museo Sans";
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 0;
   line-height: 17px;
   text-align: center;
@@ -67,4 +76,14 @@ background-color: whitesmoke;
 .logo-primary-full-color {
   height: 41px;
   width: 234px;
+}
+
+.accurate-logo {
+  height: 40px;
+  width: 235px;
+  margin-top: -160px;
+}
+
+.img-logo {
+  margin-top: 100px;
 }

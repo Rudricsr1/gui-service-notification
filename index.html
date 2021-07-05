@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title ng-bind="windowTitle" class="ng-binding">optinA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="text/javascript" src="/subscription.js"></script>
+    <script type="text/javascript" src="/subscriptionStatusRequest.js"></script>
+  </head>
+
+  <body class="outer-body">
+    <div id="outer-rectangle" class="outer-rectangle" hidden="true">
+      <div class="img-logo">
+        <img src="/images/logo.png" alt="Accurate Logo" class="accurate-logo" />
+      </div>
+      <div class="you-have-opted">
+        <h1 class="you-have-opted-h1" id="opt-in" hidden="true">
+          You have opted In
+        </h1>
+        <h1 class="you-have-opted-h1" id="opt-out" hidden="true">
+          You have opted Out
+        </h1>
+      </div>
+      <div class="you-have-opted-message">
+        <h1 id="optin-message" class="you-have-opted-message-h1" hidden="true">
+          You have opted in for receiving text messages at
+        </h1>
+        <h1 id="optout-message" class="you-have-opted-message-h1" hidden="true">
+          You have opted out of receiving text messages at
+        </h1>
+      </div>
+
+      <input
+        class="button-close-window"
+        type="button"
+        value="Close Window"
+        onclick="return closewindow(this);"
+      />
+
+      <input
+        id="optin-button"
+        hidden="true,"
+        class="opt-back-in-or-out"
+        type="button"
+        value="Opt back in"
+        onclick="return change(this);"
+      />
+      <input
+        id="optout-button"
+        hidden="true,"
+        class="opt-back-in-or-out"
+        type="button"
+        value="Opt back out"
+        onclick="return change(this);"
+      />
+    </div>
+  </body>
+</html>
